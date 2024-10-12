@@ -1,6 +1,6 @@
 const express=require('express');
 const cors=require('cors');
-const userRouter = require('./router/user.route');
+const SrudentRouter = require('./router/student.route');
 
 const app = express();
 
@@ -20,7 +20,7 @@ app.get('/',(req,res)=>{
 });
 
 // User route
-app.use('/api',userRouter);
+app.use('/api',SrudentRouter);
 
 // false route
 app.use((req,res,next)=>{
