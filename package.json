@@ -1,0 +1,25 @@
+{
+  "name": "mdb_revision",
+  "version": "1.0.0",
+  "description": "Mongo DB Revision",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "Mongodb",
+    "javascrit",
+    "express"
+  ],
+  "author": "Mr.XXX",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.7.1",
+    "nodemon": "^3.1.7"
+  }
+}
